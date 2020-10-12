@@ -54,7 +54,7 @@ void age(int k)
 
 			}
 
-			if (age[j] >= 60 && age[j] <= 100)
+			if (age[j] >= 60 && age[j] < 100)
 			{
 				printf("Free all menu in the morning\n");
 				break;
